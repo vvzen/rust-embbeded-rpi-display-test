@@ -1,0 +1,6 @@
+[build]
+target = "armv7-unknown-linux-musleabihf"
+
+[target.armv7-unknown-linux-musleabihf]
+# brew install arm-linux-gnueabihf-binutils
+linker = "arm-linux-gnueabihf-ld"
