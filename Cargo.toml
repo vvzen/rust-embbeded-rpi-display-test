@@ -1,0 +1,15 @@
+[package]
+name = "display-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Graphics abstractions
+embedded-graphics = '0.7.1'
+
+# RPI Hardware Abstraction Layer
+# (provides I2C communication)
+rppal = { version = '0.14.1', features = ['hal'] }
+
+# Display driver
+sh1106 = '0.4.0'
